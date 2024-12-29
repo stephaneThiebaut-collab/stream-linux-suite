@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Bonjour depuis le rendu d'Electron !</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item-nav">
+            <menu>
+                <li><img id="netflix" src="./img/Couleur-logo-Netflix.jpg" /></li>
+                <li><img id="primevideo" src="./img/primevideo-big.webp" /></li>
+                <li><img id="disney" src="./img/disney-plus-logo-1143358.jpeg" /></li>
+            </menu>
+        </div>
+    </div>
+    <script src="./renderer.js"></script>
+</body>
+
+</html>
