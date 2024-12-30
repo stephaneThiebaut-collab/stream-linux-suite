@@ -8,11 +8,7 @@
 - npm: 11.0.0
 - For installing nodeJS : [Click Here](https://nodejs.org/en/download)
 
-## Dowload installer
-
-[📥 Télécharger Stream Suite Linux (.deb)](installer_linux/stream-suite-linux_1.0.0_amd64.deb)
-
-## Or Initialisation
+## Initialisation
 
 **For linux user** 
 - Netflix, Amazon Prime, Disney+
